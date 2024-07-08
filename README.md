@@ -1,8 +1,8 @@
 # Apache Webserver Containerization
-PROJECT 
+# PROJECT 
 This project demonstrates how to containerize an Apache web server using **Docker**, upload the image to **Docker Hub**, and allow others to pull and run it.
 
-Steps Performed
+# Steps
 1. Prepare html file and Dockerfile down for use.
 
 2. Lunch EC2 with access to session manager
@@ -31,7 +31,7 @@ Steps Performed
 
 [![Hub](./images/pull2.png)]
 
-**Summary**
+# **Summary**
 Containerization is the process of packaging an application and its dependencies into a single portable unit called a container. Using Docker, this involves writing a Dockerfile, building an image, and running that image as a container.
 
 In this project, the Apache web server was containerized using the official httpd base image and a custom index.html file. The image was built, tested by running locally on port 80, and pushed to Docker Hub for others to pull and use.
