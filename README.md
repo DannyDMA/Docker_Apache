@@ -1,5 +1,5 @@
-# Apache Webserver Containerization
-# PROJECT 
+# Apache Webserver Containerization Project
+ 
 This project demonstrates how to containerize an Apache web server using **Docker**, upload the image to **Docker Hub**, and allow others to pull and run it.
 
 # Steps
