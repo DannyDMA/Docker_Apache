@@ -1,4 +1,3 @@
-#To use official Apache base image
 FROM httpd:latest
 
 #To copy our custom webpage into Apache's web root
